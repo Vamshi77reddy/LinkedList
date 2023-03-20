@@ -10,7 +10,12 @@ public class LinkedListMain {
 	        linkedList2.add(56);
 	        linkedList2.add(30);
 	        linkedList2.add(70);
+	        LinkedList<Integer> linkedList3 = new LinkedList<>();
+	        linkedList3.add(30);
+	        linkedList3.push(56);
+	        linkedList3.add(70);
 
+	        linkedList3.show();
 	        linkedList1.show();
 	        linkedList2.show();
 	        }
