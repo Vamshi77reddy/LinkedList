@@ -41,12 +41,19 @@ public class LinkedListMain {
 
 	        linkedList6.show();
 
-	        Node<Integer> searchedData = linkedList6.search(33);
-	        if (searchedData == null) {
-	            System.out.println("Element not found!");
-	        } else {
-	            System.out.println("Element Found");
-	        }
+//	        Node<Integer> searchedData = linkedList6.search(30);
+//	        if (searchedData == null) {
+//	            System.out.println("Element not found!");
+//	        } else {
+//	            System.out.println("Element Found");
+//	        }
+	            boolean isInserted = linkedList1.insertAfter(30, 40);
+	            if (isInserted)
+	                System.out.println("Element inserted successfully!");
+	            else
+	                System.out.println("Element not inserted!");
+	            linkedList1.show();
+	        
 	        }
 	
 	    }
