@@ -32,5 +32,22 @@ public class LinkedListMain {
 	            System.out.println("The element popped is => " + poppedData2);
 
 	        linkedList3.show();
+	        LinkedList<Integer> linkedList6 = new LinkedList<>();
+	        linkedList6.push(70);
+	        linkedList6.push(30);
+	        linkedList6.push(56);
+	        linkedList6.push(45);
+	        linkedList6.push(90);
+
+	        linkedList6.show();
+
+	        Node<Integer> searchedData = linkedList6.search(33);
+	        if (searchedData == null) {
+	            System.out.println("Element not found!");
+	        } else {
+	            System.out.println("Element Found");
 	        }
-}
+	        }
+	
+	    }
+
