@@ -32,5 +32,12 @@ public class LinkedList<T> {
 	        }
 	        System.out.println();
 	    }
+	    public T pop() {
+	        if (head == null)
+	            return null;
+	        T popData = head.data;
+	        head = head.next;
+	        return popData;
+	    }
 	}
 

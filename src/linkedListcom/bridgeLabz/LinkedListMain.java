@@ -18,5 +18,13 @@ public class LinkedListMain {
 	        linkedList3.show();
 	        linkedList1.show();
 	        linkedList2.show();
+	        Integer poppedData1 = linkedList3.pop();
+	        if (poppedData1 == null)
+	            System.out.println("Linked List is Empty");
+	        else
+	            System.out.println("The element popped is => " + poppedData1);
+
+	        linkedList3.show();
+
 	        }
 }
